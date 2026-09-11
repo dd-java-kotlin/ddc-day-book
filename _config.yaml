@@ -29,7 +29,7 @@ exclude:
   - ".claude/**/*"
   - ".copilot/**/*"
   - ".github/**/*"
-  _ ".junie/**/*"
+  - ".junie/**/*"
 
 # Example data hash list used in documentation
 assignment:
