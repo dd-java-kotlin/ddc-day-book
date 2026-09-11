@@ -1,0 +1,7 @@
+interface:
+  display_name: "Capture Response"
+  short_description: "Save a response as durable feedback"
+  default_prompt: "Use $capture-response to save this response as a project feedback file."
+
+policy:
+  allow_implicit_invocation: false
