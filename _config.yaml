@@ -20,6 +20,17 @@ prev_next_navigation:
 
 google_analytics: # Tracking ID, e.g. "UA-000000-01"; ignore if Google Analytics not needed.
 
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - GEMINI.md
+  - README.md
+  - ".agents/**/*"
+  - ".claude/**/*"
+  - ".copilot/**/*"
+  - ".github/**/*"
+  _ ".junie/**/*"
+
 # Example data hash list used in documentation
 assignment:
   - Basic goals:
