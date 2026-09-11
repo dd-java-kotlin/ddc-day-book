@@ -2,7 +2,8 @@
 {%- assign delimiter_length = delimiter | size -%}
 {%- assign pages_in_section = site.pages
     | where_exp: "p", "p.dir == include.parent_dir_path"
-    | where_exp: "p", "p.title and p.title != empty"
+    | where_exp: "p", "p.title"
+    | where_exp: "p", "p.title != empty"
     | where_exp: "p", "p.exclude_from_toc != true"
     | where_exp: "p", "p.exclude_from_local_nav != true"
     | where_exp: "p", "p.exclude_from_prev_next != true"
